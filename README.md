@@ -1,13 +1,15 @@
+# What?
+
+Taking the amazing work already done by [hrhs7th](https://github.com/hrsh7th), and seeing what I can do… if anything.
+
 # vscode-langservers-extracted
 
 HTML/CSS/JSON/ESLint language servers extracted from [vscode](https://github.com/Microsoft/vscode).
-
 
 # Why?
 
 - Microsoft provided awesome Language Servers for the community but it didn't update for a long time.
 - Currently, the latest css-language-server is improved a bit than `vscode-css-langserver-bin`.
-
 
 # Usage
 
@@ -31,13 +33,11 @@ Not yet
 - `vscode-markdown-language-server`
 - `vscode-anycode-language-server`
 
-
 # Build
 
 ### Requirements
 
 You should install yarn for the building vscode.
-
 
 ### Commands
 
@@ -49,13 +49,11 @@ node ./script/depcheck.js
 # npm run release
 ```
 
-
 # LICENSE
 
 This package licensed under the MIT.
 
 See the [LICENSE](./LICENSE)
-
 
 # THIRD-PARTY LICENSE
 
@@ -65,4 +63,3 @@ See the [LICENSE](./LICENSE)
   - https://github.com/microsoft/vscode-eslint/blob/master/License.txt
 - https://github.com/Microsoft/vscode-anycode
   - https://github.com/microsoft/vscode-anycode/blob/master/LICENSE
-
